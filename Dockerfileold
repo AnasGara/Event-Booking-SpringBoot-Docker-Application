@@ -1,0 +1,21 @@
+FROM openjdk:11-slim-buster
+
+# Install Maven
+RUN apt update
+
+
+RUN apt install -y maven
+
+WORKDIR /app
+
+COPY pom.xml .
+
+RUN mvn dependency:resolve
+
+COPY . .
+
+RUN mvn clean package
+
+EXPOSE 8080
+
+CMD java -jar target/my-app-0.0.1-SNAPSHOT.jar
