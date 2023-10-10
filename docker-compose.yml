@@ -1,0 +1,5 @@
+services:
+  spring-boot-app:
+    image: JenkinsDockerDone
+    ports:
+      - "0.0.0.0:8084:8080"
