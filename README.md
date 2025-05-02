@@ -36,7 +36,6 @@ A full-featured event booking application built with **Spring Boot**, **Docker**
 
 ## 📷 Screenshots
 
-> Add screenshots or GIFs of the platform (event creation, payment, confirmation, dashboard) here.
 
 ---
 
