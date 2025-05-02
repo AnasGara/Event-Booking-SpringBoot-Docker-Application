@@ -25,12 +25,12 @@ A full-featured event booking application built with **Spring Boot**, **Docker**
 
 | Backend         | Frontend (optional) | DevOps & Infrastructure |
 |----------------|---------------------|--------------------------|
-| Java 17        | (add frontend info if applicable) | Docker |
-| Spring Boot    |                     | Jenkins |
+| Java 17        | Typescript | Docker |
+| Spring Boot    |           Angular           | Jenkins |
 | Spring Security|                     | AWS EC2 |
 | Spring Data JPA|                     | Stripe |
-| PostgreSQL     |                     | GitHub Actions *(optional)* |
-| JWT            |                     | CloudWatch *(optional)* |
+| PostgreSQL     |                     | Jenkins |
+| JWT            |                     | Docker |
 
 ---
 
